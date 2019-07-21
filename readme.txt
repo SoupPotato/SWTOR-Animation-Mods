@@ -36,6 +36,13 @@ Before starting, this tool will only work if you are using the Non-Bitraider ver
 If you are using Bitraider then you will need to remove and unistall it. 
 This will result in a complete reinstallation of the game.
 
+Guide to remove Bitraider:
+https://www.reddit.com/r/swtor/comments/3ksypm/guide_to_permanently_removing_bitraider_and/
+
+
+
+Once that is doen adn your ready, follow thse steps:
+
 
 1.Set the director to the location of your SWTOR files:
 
