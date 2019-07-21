@@ -1,0 +1,48 @@
+!
+! Particle Specification
+!
+Version=3
+AreaGUID=4611686348965397001
+[SETTINGS]
+  .Name=/art/fx/particles/bh_firestorm_thrower_flames.prt
+  .Folder=/art/fx/particles/
+  .ParticleType=BASIC_EMITTER
+  .EmitAtDeathSpec=
+  .UpdateRate=NORMAL
+  .EmitSpec=\art\fx\particles\bh_firestorm_thrower_flames_p.prt
+  .LifeSpan=
+  .InitialRotation2D=<-180,180,180,0>
+  .EmitFrequency=0.11
+  .AttractorPosition=
+  .AttractorStrength=
+  .CollideWithAttractor=false
+  .UseChaseTarget=false
+  .DeltaRotation3D=
+  .DistanceRateAdjustment=1
+  .LinkChildren=false
+  .LinkToCamera=false
+  .LockRotation=false
+  .RunUp=false
+  .ChildrenInheritMomentum=false
+  .MaxDistanceFromCamera=0
+  .MinDistanceFromCamera=0
+  .NumberToEmit=1
+  .MaxActiveEmissions=1000
+  .SubFrameParticleDistribution=false
+  .MinParticlesPerMeter=0
+  .InitialRotation3D=
+  .DeltaRotationUseLocalSpace=false
+  .EmitterShape=Point
+  .InitialParticleVelocity=
+  .ShellThickness=0.1
+  .EmitterRadius=(0,0,0)
+  .WithinRadius=
+  .CapsuleRadius=
+  .Height=
+  .PosZRadius=
+  .NegZRadius=
+  .DomeAmount=
+  .BoxSize=
+  .AlignToNormal=false
+  .EllipsoidRadii=
+  .SprayAngle=

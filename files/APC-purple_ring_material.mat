@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Material>
+  <DefaultPath />
+  <DefaultTextureObject />
+  <Alias />
+  <Derived>Uber</Derived>
+  <PolyType>Collide</PolyType>
+  <Visibility>Normal</Visibility>
+  <GeometryType>Default</GeometryType>
+  <AlphaMode>None</AlphaMode>
+  <AlphaTestValue>0.5</AlphaTestValue>
+  <IsTwoSided>False</IsTwoSided>
+  <AudioMat>Metal</AudioMat>
+  <input>
+    <semantic>DiffuseMap</semantic>
+    <type>texture</type>
+    <value>art\fx\geometry\trooper\texture\fx_tr_armorpiercingclip_rings_d</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>RotationMap1</semantic>
+    <type>texture</type>
+    <value>art\defaultassets\flat_n</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>GlossMap</semantic>
+    <type>texture</type>
+    <value>art\defaultassets\black</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>UsesReflection</semantic>
+    <type>bool</type>
+    <value>False</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>UsesEmissive</semantic>
+    <type>bool</type>
+    <value>False</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>UvScaling</semantic>
+    <type>uvscale</type>
+    <value>1,1</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>ReflectionIntensity</semantic>
+    <type>float</type>
+    <value>1</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>ReflectionBlurIntensity</semantic>
+    <type>float</type>
+    <value>1</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>ReflectionSpecInfluence</semantic>
+    <type>float</type>
+    <value>0</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>ReflectionContrast</semantic>
+    <type>float</type>
+    <value>0</value>
+    <variable />
+  </input>
+</Material>

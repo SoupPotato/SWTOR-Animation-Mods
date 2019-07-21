@@ -1,0 +1,242 @@
+#ability fixes
+;replacegom epp.bounty_hunter.heatseeker_missiles.heatseeker_missiles_cast heatseeker-fixed.node
+replacegom epp.bounty_hunter.heatseeker_missiles.heatseeker_missiles_cast heatseeker-fixed-New-5.0.node
+replacegom abl.bounty_hunter.kolto_shot/16/1 kolto_shot-fixed.node
+replacegom epp.bounty_hunter.kolto_gas_cylinder.heal_flurry koltoshot-1.0.node
+replacegom abl.bounty_hunter.fusion_missile fusioncast-fixed.node
+replacegom abl.companion.weapon_set.probe_droid.flurry/6/1 probe_droid_blaster-fix.node
+replacegom abl.bounty_hunter.skill.arsenal.terminal_velocity terminalvelocity-newicon.node
+replacegom epp.bounty_hunter.unload.loop_player unloadpew-fix2.node
+replacegom epp.bounty_hunter.unload.unload_cast unloadpew-fix-NPC.node
+replacegom epp.bounty_hunter.blazing_bolts.channel_loop Blazingboltspew-fix2.node
+replacegom epp.bounty_hunter.searing_wave.cast_instant searing_wave-flamethrower-DUAL.node    ;dont forget fxspec!
+replacegom epp.bounty_hunter.firestorm_new.cast_instant firestorm-flamethrower-DUAL.node    ;dont forget fxspec!
+replacegom epp.bounty_hunter.ordnance_onslaught.missile_barrage deadlyonslaught_rocketbackpack-fix3.node
+replacegom epp.bounty_hunter.death_from_above.missile_left DFA-fixmissile_left.node
+replacegom epp.bounty_hunter.death_from_above.missile_right DFA-fixmissile_right.node
+replacegom epp.bounty_hunter.immolate.immolate_cast immolate-1.0.node
+replacegom epp.bounty_hunter.serrated_shot.cast_loop serrated_charge-fix.node
+replacegom epp.test.bug.agent.rushed_shot.rushed_shot_cast new_comp-supressive.node
+replacegom epp.test.jr.flurry.tripleblow_1 k1-z3n_blast-upgrade1.node
+replacegom abl.companion.unique.mtx.iokath_assault.dps.single_target_attack/4/1 k1-z3n_blast-upgrade2.node
+replacegom abl.companion.weapon_set.blaster.dps.aoe_attack blaster_comp_supressive-fix.node
+replacegom abl.companion.weapon_set.assault_cannon.dps.aoe_attack cannon_comp_supressive-fix.node
+replacegom abl.companion.unique.mtx.iokath_assault.dps.aoe_attack k1-z3n_comp_supressive-fix.node
+replacegom abl.companion.unique.mtx.war_droid.dps.aoe_attack p3-kp_comp_supressive-fix.node
+replacegom abl.companion.unique.kotfe.zoom.dps.aoe_attack zoom_supressive-fix.node
+replacegom abl.companion.weapon_set.sniper_rifle.dps.aoe_attack sniper+rifle_comp_supressive-fix.node
+replacegom epp.player.sprint_finish clickinmystep.node
+replacegom abl.jedi_consular.forcequake/25/1 forcequake_fix-1.node
+replacegom epp.e3.jedi_boss.force_slam forcequake_fix-2.node
+replacegom epp.e3.jedi_boss.force_push forcequake_fix-3.node
+replacegom epp.bounty_hunter.rocket_out.cast_instant rocket_out-fix2.node
+replacegom epp.bounty_hunter.rail_shot.rail_shot_fire rail_shot_fire-impact_fix.node
+replacegom epp.companion.unique.mtx.colicoid.dps.aoe_attack colicoid_missile-fix.node
+replacegom epp.companion.unique.mtx.colicoid.dps.single_target_damage colicoid_blast-fix.node
+replacegom epp.companion.unique.mtx.iokath_tank.dps.single_target_damage H1-K1_new_blast.node
+replacegom epp.bounty_hunter.mag_shot.instant_cast mag_shot-velocity_fix.node
+replacegom epp.trooper.ion_squall.cast_instant Ion-Wave_New.node
+replacegom epp.trooper.ion_storm_new.cast_instant Ion-Storm_New.node
+replacegom epp.bounty_hunter.heat_blast.cast_instant_new heatblast-new.node
+replacegom epp.bounty_hunter.jet_boost.jet_boost_cast Jet_Boost_Update.node
+replacegom epp.bounty_hunter.death_from_above.jet_engage New_jetpack_DFA_Launch.node
+replacegom epp.world_design.utility.teleports.jetpack_leap_to_location jetpack_leap_to_location-fix.node
+replacegom epp.npc.ability.droid.battle_droid.incinerate.incinerate_cast NPC_incinerate-fix.node           
+replacegom epp.npc.ability.droid.acklay.flurry.instant Cartel_Spider-Droid.flurry-fix.node   
+replacegom epp.bounty_hunter.sweeping_blasters.channel_loop sweeping_blasters-muzzle_fix.node
+replacegom epp.smuggler.sweeping_gunfire sweeping_gunfire-muzzle_fix.node
+replacegom epp.agent.cull.loop cull-muzzle_fix.node
+replacegom epp.flurry.droid.probe_droid.probe_droid_ranged New_probe_droid_universal_flurry.node
+
+
+#fxspec fixes
+replace /resources/art/fx/fxspec/abilities/droid/droid_sky_trooper_heatseeker_missiles_cast.fxspec heatseeker-fixed-New-5.0_render-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heatseekermissiles_fake_projectile.fxspec heatseeker-fixed_render-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_missileblast_fakeprojectile.fxspec missileblast_new.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_missile_projectile_lod_01.fxspec missileblast5.0_render-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_missile_fan_projectile.fxspec fusionfiresound-fixed.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_fusion_missile_fire.fxspec tracerfiresound-fixed.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_boltstorm_bolt_dynamic.fxspec boltstorm-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_boltstorm_bolt_impact.fxspec boltstorm_impact-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_plasmaclip_muzzle.fxspec combustablecylinder-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_ionclip_muzzle_01.fxspec ioncylinder-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_armorpiercing_caster_muzzle_op.fxspec highvelocitycylinder-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_armorpiercing_caster_muzzle_cannon_op.fxspec armorpiercing_cell-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_highenergyclip_muzzle.fxspec highenergycylinder-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolts_muzzle_flash_dynamic.fxspec Blazingboltspew-fix.fxspec
+replace /resources/art/fx/fxspec/test_e3_handgun_fire.fxspec unloadpew-fix.fxspec
+replace /resources/art/fx/fxspec/1.fxspec unloadfoleyright-PEW.fxspec
+replace /resources/art/fx/fxspec/10.fxspec unloadfoleyleft-PEW.fxspec 
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_searing_wave_burst_02_bracer.fxspec searing_wave-flamethrower2-DUAL.fxspec  ;disable if not using node!
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_searing_wave_burst_03_bracer.fxspec firestorm-flamethrower2-DUAL.fxspec  ;disable if not using node!
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_searing_wave_burst_01.fxspec searing_wave-scorchmarks.fxspec
+replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_dark_ward_loop_fast.fxspec darkwardholocron.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocketbackpack_medium_close.fxspec deadlyonslaught_rocketbackpack-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocketbackpack_medium_open.fxspec deadlyonslaught_rocketbackpack-fix2.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocketbarrage_projectiles_01.fxspec deadlyonslaught_missile_01.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocketbarrage_projectiles_02.fxspec deadlyonslaught_missile_02.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocketbarrage_projectiles_03.fxspec deadlyonslaught_missile_03.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocketbarrage_projectiles_04.fxspec deadlyonslaught_missile_04.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocket_right_projectile_01.fxspec deadlyonslaught_tri-missile_right.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocket_left_projectile_02.fxspec deadlyonslaught_tri-missile_left.fxspec
+;replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocket_right_projectile_01.fxspec deadlyonslaught_rails01.fxspec
+;replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocket_left_projectile_02.fxspec deadlyonslaught_rails02.fxspec
+replace /resources/art/fx/fxspec/bh_immolate_flame_ignite_01.fxspec immolate-flamesound-fix.fxspec
+replace /resources/art/fx/fxspec/bh_deathfromabove_randomtarget_large.fxspec DFA-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_serrated_shot_impact.fxspec serrated_shot_new_impact.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_serrated_blaster_bolt_dynamic.fxspec serrated_shot_new_bolt.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_serrated_bolt_impact.fxspec serrated_bolt_new_impact.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_serrated_bolt_bolt.fxspec serrated_bolt_new_bolt.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolts_bolt_dynamic.fxspec blazing_bolts_bolt_dynamic.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolts_bolt_dynamic_02.fxspec blazing_bolts_bolt_dynamic_02.fxspec
+replace /resources/art/fx/fxspec/abilities/blasterfire/dynamic_standard_blaster_bolt.fxspec typical_blaster_bolt.fxspec
+replace /resources/art/fx/fxspec/abilities/blasterfire/dynamic_standard_blaster_bolt_and_trail.fxspec typical_blaster_bolt_with_trail.fxspec
+replace /resources/art/fx/fxspec/2.fxspec forcequake_fix-4.fxspec
+replace /resources/art/fx/fxspec/bh_rail_shot_impact_small.fxspec rail_shot_impact-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolt_impact_dynamic.fxspec blazing_bolt_impact-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_mag_shot_muzzel_flash_01.fxspec mag_shot-recoil_rings.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_ionstorm_cast_instant_01.fxspec Ion-Wave_New.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_ion_storm_cast.fxspec Ion-Storm_New.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_missile_salvo_projectile.fxspec missile_salvo_NPC-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heat_blast_wrist_burst_01.fxspec heatblast-new_muzzle.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heat_blast_projectile_01.fxspec heatblast-new_projectile.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heat_blast_impact_01.fxspec heatblast-new_impact.fxspec
+replace /resources/art/fx/fxspec/abilities/spy/sp_penetrating_blasts_blaster_bolt.fxspec sp_penetrating_blasts_blaster_bolt.fxspec 
+replace /resources/art/fx/fxspec/abilities/spy/sp_penetrating_blasts_muzzle_flash.fxspec sp_penetrating_blasts_muzzle_flash.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_firestorm_thrower_01.fxspec NPC-Firestorm_5.10.fxspec
+replace /resources/art/fx/fxspec/mtx/mtx_emote_one_man_band_anniv_fwx.fxspec mtx_emote_one_man_band_anniv_fwx.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/jetpack_standard_looping.fxspec New_jetpack_standard_looping.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_rocketpunch_01.fxspec New_rocketpunch.fxspec
+replace /resources/art/fx/fxspec/bh_determination_jetpack.fxspec New_determination_jetpack.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_jet_charge_01.fxspec New_jet_charge_01.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_flamesweep_bracer_flames_01.fxspec New_flamesweep_bracer_flames_01.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_flaming_fist_backpack.fxspec New_flamingfist_jetpack.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_thermal_override.fxspec New_thermal_jet.fxspec
+replace /resources/art/fx/fxspec/bh_deathfromabove_burst.fxspec New_jet_charge_burst.fxspec
+replace /resources/art/fx/fxspec/342.fxspec Recharge_fixed_lightsource.fxspec
+replace /resources/art/fx/fxspec/worlddesign/flashpoint/spawn_jetpack_short.fxspec New_spawn_jetpack_short.fxspec
+replace /resources/art/fx/fxspec/worlddesign/flashpoint/spawn_jetpack_long.fxspec New_spawn_jetpack_long.fxspec
+replace /resources/art/fx/fxspec/bh_jetboost.fxspec New_jet_to_location.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_carbonize_cast.fxspec New_carbonize_Jetpack.fxspec
+replace /resources/art/fx/fxspec/abilities/spy/sp_series_of_shots_projectile.fxspec sp_series_of_shots_projectile.fxspec
+replace /resources/art/fx/fxspec/bh_jetboost_smoke.fxspec New_jetboost_heat.fxspec                             
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_jetboost_rev1.fxspec New_rocket_boost_jet.fxspec
+replace /resources/art/fx/fxspec/108.fxspec New_jetpack_DFA_Start.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_rocket_out.fxspec New_rocket_out_jet.fxspec
+replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_mounting_darkness_decal_loop.fxspec mounting_darkness_transparency-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_mounting_darkness_decal_end_loop.fxspec mounting_darkness_transparency-fix_end.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_incendiary_missile_projectile_new.fxspec New_incendiary_missile_projectile.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_incendiary_missile_impact_new.fxspec New_incendiary_missile_impact.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_mag_shot_projectile.fxspec mag_shot_rails.fxspec
+replace /resources/art/fx/fxspec/test_bh_jetburst.fxspec NPC_incinerate-fix.fxspec
+replace /resources/art/fx/fxspec/environments/oricon/oricon_mecha_rancor_lava_bucket_down_hold.fxspec DF_mining_droid-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_bracerweapon_flameburst_01.fxspec New_flameburst_bracer.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_flame_burst_cast.fxspec New_flameburst_flame.fxspec
+replace /resources/art/fx/fxspec/environments/space/transition_arcs/imp_revan_arc_2_foundry/env_revanarc_foundry_starfield_01.fxspec foundry-broken_starskybox-fix.fxspec
+replace /resources/art/fx/fxspec/environments/space/transition_arcs/env_revanarc_fleetbattle_main_01.fxspec foundry-garbage_planet_removal.fxspec
+replace /resources/art/fx/fxspec/255.fxspec flamethrower_1.0-lightfix.fxspec
+replace /resources/art/fx/fxspec/bh_immolate_flame_scorch_01.fxspec immolate-lightfix.fxspec
+
+
+#special gas-cylinder fixes
+replacegom abl.bounty_hunter.skill.arsenal.high_velocity_gas_cylinder/7/2 HVGC-purple.node                 
+replacegom abl.trooper.skill.gunnery.armor_piercing_cell/6/2 APC-purple.node
+replacegom epp.bounty_hunter.kolto_gas_cylinder.tick HVGC-purple2.node
+replacegom epp.trooper.kolto_cell.tick APC-purple2.node
+replace /resources/art/fx/fxspec/test/cschmidt/missile_prj_r.fxspec HVGC-purple_muzzle.fxspec
+replace /resources/art/fx/fxspec/test/cschmidt/missile_prj.fxspec APC-purple_muzzle_cannon.fxspec
+replace /resources/art/fx/geometry/trooper/fx_tr_armorpiercingclip_rings.gr2 APC-purple_ring.gr2
+replace /resources/art/fx/geometry/trooper/texture/fx_tr_armorpiercingclip_rings_d.dds APC-purple_ring_texture.dds
+replace /resources/art/fx/geometry/trooper/texture/fx_tr_armorpiercingclip_rings_d.tiny.dds APC-purple_ring_texture.tiny.dds
+replace /resources/art/shaders/materials/fx_tr_armorpiercingclip_rings.mat APC-purple_ring_material.mat
+replace /resources/art/fx/particles/bh_blazing_bolt_sparks_dynamic.prt HVGC-purple_fx.prt
+replace /resources/art/fx/particles/bh_blazing_bolt_sparks_dynamic_p.prt HVGC-purple_fx2.prt
+replace /resources/art/fx/particles/test_puff.prt HVGC-purple_fx3.prt
+replace /resources/art/fx/particles/test_puff_p.prt HVGC-purple_fx4.prt
+replace /resources/art/fx/particles/test.prt APC-purple_fx.prt
+replace /resources/art/fx/particles/test_p.prt APC-purple_fx2.prt
+replace /resources/art/fx/particles/testroom_lee_blowingsand_01.prt APC-purple_fx3.prt
+replace /resources/art/fx/particles/testroom_lee_blowingsand_01_p.prt APC-purple_fx4.prt
+replace /resources/art/fx/particles/bh_supercharge_energy_gather_core_velocity_p.prt supercharged_gas_velocity_purple.prt
+replace /resources/art/fx/particles/bh_supercharge_energy_gather_flare_velocity_p.prt supercharged_gas_velocity_purple2.prt
+replace /resources/art/fx/particles/bh_supercharge_energy_gather_wave_in_velocity_p.prt supercharged_gas_velocity_purple3.prt
+replace /resources/art/fx/particles/tr_defensive_surge_initial_streaks_velocity_p.prt supercharged_gas_velocity_purple4.prt
+replace /resources/art/fx/particles/tr_defensive_surge_intial_burst_velocity_p.prt supercharged_gas_velocity_purple5.prt
+replace /resources/art/fx/particles/tr_defensive_surge_shield_ring_velocity_p.prt supercharged_gas_velocity_purple6.prt
+replace /resources/art/fx/fxspec/abilities/trooper/tr_defensive_surge_velocity_cast.fxspec supercharged_gas_velocity_purple7.fxspec
+
+
+#operation improvements
+replace /resources/art/fx/particles/op_yav_rev_maelstrom_unstable_core_flames_p.prt red_unstable_abberation_core_flames.prt
+replace /resources/art/fx/particles/op_yav_rev_maelstrom_unstable_core_ring_p.prt red_unstable_abberation_core_ring.prt
+replace /resources/art/fx/particles/op_yav_rev_maelstrom_unstable_flames_p.prt red_unstable_abberation_flames.prt
+replace /resources/art/fx/particles/op_yav_rev_maelstrom_unstable_smoke_thin_facing_p.prt red_unstable_abberation_smoke.prt
+replace /resources/art/shaders/materials/skyva_sterarray_ring6m_sect01.mat skyva_sterarray_ring6m_sect01.mat
+
+
+#texture fixes
+replace /resources/art/fx/texture/weapon_ranged/bw_blasterbolt_core_standard_with_alpha.dds New_blaster_bolt_core.dds
+replace /resources/art/fx/texture/weapon_ranged/bw_blasterbolt_standard_with_alpha.dds New_blaster_bolt_glow.dds
+replace /resources/art/fx/texture/trail/trail_core_bw.dds trail_core_bw.dds
+replace /resources/gfx/icons/ipp.custom.social.bounty_hunting.master_hunter.head.dds master_hunter-icon_fix.dds
+replace /resources/gfx/icons/kotet_stimpack_blue.dds kotet_stimpack_blue.dds
+replace /resources/gfx/icons/kotet_stimpack_red.dds kotet_stimpack_red.dds
+replace /resources/gfx/icons/kotet_stimpack_yellow.dds kotet_stimpack_yellow.dds
+replace /resources/gfx/icons/kotet_adrenal_blue.dds kotet_adrenal_blue.dds
+replace /resources/gfx/icons/kotet_adrenal_green.dds kotet_adrenal_green.dds
+replace /resources/gfx/icons/kotet_adrenal_red.dds kotet_adrenal_red.dds
+replace /resources/gfx/icons/kotet_medpack_green.dds kotet_medpack_green.dds
+replace /resources/gfx/icons/kotet_medpack_greenvariant.dds kotet_medpack_greenvariant.dds
+
+
+#particle effects
+replace /resources/art/fx/particles/bh_incendiary_missle_firecore_01_p.prt incendiary_missile_1.0.prt
+replace /resources/art/fx/particles/bh_incendiary_missile_projectile_core_p.prt incendiary_missile_1.0-2.prt
+replace /resources/art/fx/particles/bh_mag_shot_trail_01_p.prt mag_shot_extended_trail.prt
+replace /resources/art/fx/particles/bh_firestorm_thrower_flames.prt firestorm_new_flames.prt
+replace /resources/art/fx/particles/bh_firestorm_thrower_flames_p.prt firestorm_new_flames_p.prt
+replace /resources/art/fx/particles/bh_missileblast_trail_p.prt missileblast_trail-fix.prt
+replace /resources/art/fx/particles/bh_flame_sweep_flamethrower_main_p.prt New_flame_sweep_flamethrower_main_p.prt
+replace /resources/art/fx/particles/bh_flame_burst_flames_additive_p.prt bh_flame_burst_flames_additive_p.prt
+replace /resources/art/fx/particles/bh_flame_burst_flames_orange_p.prt bh_flame_burst_flames_orange_p.prt
+
+#Title Screen Music
+;replace /resources/bnk2/streamed/128460524.wem BinarySunsetClassisStarWarsTheme.wem
+
+
+
+#target reticles
+replace /resources/art/fx/fxspec/abilities/all/all_imp_target_reticle_gtaoe_persist_green_v2016.fxspec legacy_imp_target_reticle_persist_green.fxspec
+replace /resources/art/fx/fxspec/abilities/all/all_imp_target_reticle_gtaoe_persist_red_v2016.fxspec legacy_imp_target_reticle_persist_red.fxspec
+replace /resources/art/fx/fxspec/abilities/all/all_imp_target_reticle_gtaoe_initialize_green_v2016.fxspec legacy_imp_target_reticle_initialize_green.fxspec
+replace /resources/art/fx/fxspec/abilities/all/all_rep_target_reticle_gtaoe_persist_green_v2016.fxspec legacy_rep_target_reticle_persist_green.fxspec
+replace /resources/art/fx/fxspec/abilities/all/all_rep_target_reticle_gtaoe_persist_red_v2016.fxspec legacy_rep_target_reticle_persist_red.fxspec
+replace /resources/art/fx/fxspec/abilities/all/all_rep_target_reticle_gtaoe_initialize_green_v2016.fxspec legacy_rep_target_reticle_initialize_green.fxspec
+
+
+
+#animation/skeleton fixes
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_1.jba bmn_cb_2pistol_idle_1.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_2.jba bmn_cb_2pistol_idle_2.jba
+replace /resources/anim/humanoid/bmnnew/cb_2pistol_fire_2.jba bmn_cb_2pistol_fire_2.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_retract_01.jba bmn_cb_2pistol_idle_retract_01.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_retract_02.jba bmn_cb_2pistol_idle_retract_02.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_retract_03.jba bmn_cb_2pistol_idle_retract_03.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_adjust_1.jba bmn_cb_2pistol_idle_adjust_1.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_adjust_2.jba bmn_cb_2pistol_idle_adjust_2.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_adjust_3.jba bmn_cb_2pistol_idle_adjust_3.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_adjust_4.jba bmn_cb_2pistol_idle_adjust_8.jba
+replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_adjust_4.jba bmn_cb_2pistol_idle_adjust_8_2019.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_adjust_5.jba bmn_cb_2pistol_idle_adjust_5.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_adjust_6.jba bmn_cb_2pistol_idle_adjust_6.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_adjust_7.jba bmn_cb_2pistol_idle_adjust_7.jba
+;replace /resources/anim/humanoid/bmnnew/cb_2pistol_idle_adjust_8.jba bmn_cb_2pistol_idle_adjust_8.jba
+;replace /resources/anim/humanoid/bmnnew/cb_pistol_idle_adjust_4.jba bmn_cb_pistol_idle_adjust_7.jba
+replace /resources/anim/humanoid/bmnnew/cb_pistol_idle_adjust_4.jba bmn_cb_pistol_idle_adjust_7_2019.jba
+replace /resources/anim/humanoid/bmnnew/cb_2pistol_fire_special_start_2.jba bmn_cb_2pistol_fire_special_start_2.jba
+replace /resources/anim/humanoid/bmnnew/cb_2pistol_fire_special_loop_2.jba bmn_cb_2pistol_fire_special_loop_2.jba
+replace /resources/anim/humanoid/bmnnew/cb_2pistol_fire_special_end_2.jba bmn_cb_2pistol_fire_special_end_2.jba
+replace /resources/anim/humanoid/bmnnew/cb_2pistol_unload_start.jba bmn_cb_2pistol_unload_start.jba
+replace /resources/anim/humanoid/bmnnew/cb_2pistol_unload_loop.jba bmn_cb_2pistol_unload_loop.jba
+replace /resources/anim/humanoid/bmnnew/cb_2pistol_unload_end.jba bmn_cb_2pistol_unload_end.jba
+replace /resources/art/dynamic/creature/model/acklay_archno_a01.gr2 Cartel_Spider-Droid_fix.gr2

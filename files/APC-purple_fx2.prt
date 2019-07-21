@@ -1,0 +1,47 @@
+!
+! Particle Specification
+!
+Version=3
+AreaGUID=4611686034604870002
+[SETTINGS]
+  .Name=\art\fx\particles\testroom_lee_blowingsand_01_p.prt
+  .Folder=\art\fx\particles\
+  .ParticleType=GRANNY
+  .EmitAtDeathSpec=
+  .Motion=
+  .Drag=
+  .Buoyancy=1
+  .Trajectory=(0,0.15,0)
+  .CollisionResponse=COLLIDE_IGNORE
+  .LifeSpan=0.4
+  .LieFlat=false
+  .OrientationAxis=XYZ
+  .DeltaRotation3D=
+  .Scale3D=(2,1.5,2)
+  .UniformScale3D=0.4
+  .GrannyFileName=\art\fx\geometry\trooper\fx_tr_armorpiercingclip_rings.gr2
+  .DiffuseColor=[0:#0,0,0,0:I][0.5:#0,0,0,2:O][1:#0,0,0,0:L]O
+  .AmbientColor=
+  .AlphaFalloff=0
+  .FarAlphaFalloff=0
+  .InitialRotation3D=
+  .MaxDistanceFromCamera=0
+  .AlignToTrajectory=true
+  .SourceBlend=D3DBLEND_SRCALPHA
+  .DestBlend=D3DBLEND_ONE
+  .DoChildEmitter=false
+  .EmitSpec=
+  .InitialRotation2D=
+  .EmitFrequency=
+  .EmitterRadius=
+  .WithinRadius=
+  .AttractorPosition=
+  .AttractorStrength=
+  .CollideWithAttractor=false
+  .UseChaseTarget=false
+  .LinkChildren=false
+  .LinkToCamera=false
+  .RunUp=false
+  .NumberToEmit=1
+  .DeltaRotationUseLocalSpace=false
+  .BloomMode=MEDIUM

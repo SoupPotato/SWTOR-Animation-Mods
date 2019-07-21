@@ -1,0 +1,47 @@
+!
+! Particle Specification
+!
+Version=3
+AreaGUID=4611686034604870002
+[SETTINGS]
+  .Name=\art\fx\particles\testroom_lee_blowingsand_01.prt
+  .Folder=\art\fx\particles\
+  .ParticleType=BASIC_EMITTER
+  .EmitAtDeathSpec=
+  .UpdateRate=NORMAL
+  .EmitSpec=\art\fx\particles\testroom_lee_blowingsand_01_p.prt
+  .LifeSpan=
+  .InitialRotation2D=
+  .EmitFrequency=
+  .AttractorPosition=
+  .AttractorStrength=
+  .CollideWithAttractor=false
+  .UseChaseTarget=false
+  .DeltaRotation3D=
+  .DistanceRateAdjustment=1
+  .LinkChildren=true
+  .LinkToCamera=false
+  .LockRotation=true
+  .RunUp=false
+  .ChildrenInheritMomentum=false
+  .MaxDistanceFromCamera=0
+  .MinDistanceFromCamera=0
+  .NumberToEmit=1
+  .SubFrameParticleDistribution=false
+  .MinParticlesPerMeter=0
+  .InitialRotation3D=
+  .DeltaRotationUseLocalSpace=false
+  .EmitterShape=Point
+  .InitialParticleVelocity=
+  .ShellThickness=
+  .EmitterRadius=
+  .WithinRadius=
+  .CapsuleRadius=
+  .Height=
+  .PosZRadius=
+  .NegZRadius=
+  .DomeAmount=
+  .BoxSize=
+  .AlignToNormal=false
+  .EllipsoidRadii=
+  .SprayAngle=

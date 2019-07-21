@@ -1,0 +1,31 @@
+#color-blindness fixes
+#--------------------------------------Explosive Conflict--------------------------------------------
+;replace /resources/art/shaders/materials/fx_mine_dissarmed.mat denova_minefield_colorblind-fix.mat
+;replace /resources/art/shaders/materials/land_mine_light_green.mat denova_minefield_colorblind-fix2.mat
+;replace /resources/art/fx/particles/op_land_mine_green_area_pulse_p.prt denova_minefield_colorblind-fix3.prt
+;replace /resources/art/fx/particles/op_land_mine_green_area_center_hex_p.prt denova_minefield_colorblind-fix4.prt
+#--------------------------------------Terror from Beyond--------------------------------------------
+;replace /resources/art/fx/fxspec/worlddesign/flashpoint/asation/core_probe_ground_target_loop_orange_low.fxspec asation_opIX_red_circle.fxspec
+;replace /resources/art/fx/fxspec/worlddesign/flashpoint/asation/core_probe_ground_target_loop_purple_low.fxspec asation_opIX_white_circle.fxspec
+;replace /resources/art/fx/fxspec/quarterly/asation/boss/machine_core/firewall_target_loop_orange.fxspec asation_opIX_red_circle_firewall.fxspec
+;replace /resources/art/fx/fxspec/quarterly/asation/boss/machine_core/firewall_target_loop_purple.fxspec asation_opIX_white_circle_firewall.fxspec
+;replace /resources/art/fx/fxspec/quarterly/asation/boss/machine_core/phase_ground_loop_orange.fxspec asation_opIX_red_circleBIG.fxspec
+;replace /resources/art/fx/fxspec/quarterly/asation/boss/machine_core/phase_ground_loop_purple.fxspec asation_opIX_white_circleBIG.fxspec
+;replace /resources/art/fx/particles/fx_data_squares_rise_orange_p.prt asation_opIX_squares_rise_red_p.prt
+;replace /resources/art/fx/particles/fx_data_squares_rise_purple_p.prt asation_opIX_squares_rise_white_p.prt
+;replace /resources/art/fx/fxspec/quarterly/asation/creature/fx_as_data_projection_orange.fxspec asation_opIX_data_projection_red.fxspec
+;replace /resources/art/fx/fxspec/quarterly/asation/creature/fx_as_data_projection_purple.fxspec asation_opIX_data_projection_white.fxspec
+;replace /resources/gfx/icons/voiletdatadisk.dds whitebisector.dds
+;replace /resources/gfx/icons/copperdatadisk.dds redbisector.dds
+;replace /resources/gfx/icons/mysticalupgrade4.dds whitesphere.dds
+;replace /resources/gfx/icons/mysticalupgrade6.dds redsphere.dds
+;replace /resources/art/shaders/materials/mat_anim_gree_screen_console_orange.mat mat_anim_gree_screen_console_red.mat
+;replace /resources/art/shaders/materials/mat_anim_gree_screen_console_purple.mat mat_anim_gree_screen_console_white.mat
+;replace /resources/art/fx/particles/env_gree_console_ring_orange_p.prt env_gree_console_ring_red_p.prt
+;replace /resources/art/fx/particles/env_gree_console_ring_purple_p.prt env_gree_console_ring_white_p.prt
+;replace /resources/art/fx/fxspec/quarterly/asation/creature/fx_as_data_projection_orange_transfer_appear.fxspec asation_opIX_data_projection_red_transfer_appear.fxspec
+;replace /resources/art/fx/fxspec/quarterly/asation/creature/fx_as_data_projection_purple_transfer_appear.fxspec asation_opIX_data_projection_white_transfer_appear.fxspec
+;replace /resources/art/fx/fxspec/quarterly/asation/creature/fx_as_data_projection_orange_transfer.fxspec asation_opIX_data_projection_red_transfer.fxspec
+;replace /resources/art/fx/fxspec/quarterly/asation/creature/fx_as_data_projection_purple_transfer.fxspec asation_opIX_data_projection_white_transfer.fxspec
+;replace /resources/art/fx/particles/env_gree_console_back_glow_orange_p.prt console_back_glow_red_p.prt
+;replace /resources/art/fx/particles/env_gree_console_back_glow_purple_p.prt console_back_glow_white_p.prt

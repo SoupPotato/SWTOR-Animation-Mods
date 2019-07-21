@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Material>
+  <DefaultPath />
+  <DefaultTextureObject />
+  <Alias />
+  <Derived>AnimatedUV</Derived>
+  <PolyType>Ignore</PolyType>
+  <Visibility>Normal</Visibility>
+  <GeometryType>Default</GeometryType>
+  <AlphaMode>Add</AlphaMode>
+  <AlphaTestValue>0.5</AlphaTestValue>
+  <IsTwoSided>False</IsTwoSided>
+  <AudioMat>Default</AudioMat>
+  <input>
+    <semantic>DiffuseMap</semantic>
+    <type>texture</type>
+    <value>art\fx\texture\glow\proj_glow_01</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>AnimatedTexture1</semantic>
+    <type>texture</type>
+    <value>art\fx\texture\uv_atlas\item_furn_terminal_desk_imperial_d</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>AnimatedTexture2</semantic>
+    <type>texture</type>
+    <value>art\fx\texture\uv_atlas\spc_item_ps_engine_sith_SUV_k</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>FresnelGradient</semantic>
+    <type>texture</type>
+    <value>art\defaultassets\white</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexTint0</semantic>
+    <type>vector4</type>
+    <value>0,0.303827,1,1</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexUVScrollSpeed0</semantic>
+    <type>uvscale</type>
+    <value>0,0</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexRotationPivot0</semantic>
+    <type>uvscale</type>
+    <value>0.5,0.5</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexRotationSpeed0</semantic>
+    <type>float</type>
+    <value>0</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexTint1</semantic>
+    <type>float</type>
+    <value>1</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexUVScrollSpeed1</semantic>
+    <type>uvscale</type>
+    <value>0,0</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexRotationPivot1</semantic>
+    <type>uvscale</type>
+    <value>0.5,0.5</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexRotationSpeed1</semantic>
+    <type>float</type>
+    <value>0</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexTint2</semantic>
+    <type>vector4</type>
+    <value>1,1,1,1</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexUVScrollSpeed2</semantic>
+    <type>uvscale</type>
+    <value>0.5,0</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexRotationPivot2</semantic>
+    <type>uvscale</type>
+    <value>0.5,0.5</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animTexRotationSpeed2</semantic>
+    <type>float</type>
+    <value>0</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animFresnelHue0</semantic>
+    <type>vector4</type>
+    <value>1,1,1,1</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>animFresnelHue1</semantic>
+    <type>vector4</type>
+    <value>1,1,1,1</value>
+    <variable />
+  </input>
+  <input>
+    <semantic>BloomMaterialParams</semantic>
+    <type>vector4</type>
+    <value>0.75,1,0,0</value>
+    <variable />
+  </input>
+</Material>
