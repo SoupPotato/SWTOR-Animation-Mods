@@ -41,7 +41,7 @@ https://www.reddit.com/r/swtor/comments/3ksypm/guide_to_permanently_removing_bit
 
 
 
-Once that is doen adn your ready, follow thse steps:
+Once that is done and you are ready, follow these steps:
 
 
 1.Set the director to the location of your SWTOR files:
