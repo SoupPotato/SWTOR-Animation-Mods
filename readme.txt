@@ -67,6 +67,9 @@ Please wait for it to finish, it may look like it is frozen at times but it is w
 
 
 
+If there are any changes you do not wish to use, simply add a semicolon (;) to the start of their line in the 'settings.txt'. 
+Be aware that some changes are made up of 2 or more files so be sure to add semicolon to those as well.
+
 ----VERY IMPORTANT----
 
 As stated before please remember to restore your backup assets 
