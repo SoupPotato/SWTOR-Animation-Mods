@@ -49,6 +49,7 @@ replacegom epp.agent.cull.loop cull-muzzle_fix.node
 replacegom epp.flurry.droid.probe_droid.probe_droid_ranged New_probe_droid_universal_flurry.node
 replacegom epp.smuggler.hemorrhaging_blast.cast_instant New_hemorrhaging_blast.node
 replacegom abl.smuggler.skill.dirty_fighting.hemorrhaging_blast/16/2 Hemorrhaging_blast_bleed-fix.node
+replacegom epp.sith_warrior.ravage.cast_instant ravage-fix.node
 
 
 #fxspec fixes
