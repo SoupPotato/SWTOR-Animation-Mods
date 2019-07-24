@@ -47,6 +47,9 @@ replace /resources/art/fx/texture/trail/trail_core_bw.dds trail_core_bw.dds
 replace /resources/art/fx/fxspec/abilities/trooper/tr_boltstorm_bolt_dynamic.fxspec boltstorm-fix.fxspec
 replace /resources/art/fx/fxspec/abilities/trooper/tr_boltstorm_bolt_impact.fxspec boltstorm_impact-fix.fxspec
 
+#BRUTAL SHOTS
+replacegom epp.smuggler.wounding_shot.single_cast_instant brutal_shots-fix.node
+
 #COMBUSTIBLE GAS CYLINDER
 replace /resources/art/fx/fxspec/abilities/trooper/tr_plasmaclip_muzzle.fxspec combustablecylinder-fix.fxspec
 
@@ -225,6 +228,9 @@ replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_rocketpunch_01.fxspe
 #SERIES OF SHOTS
 replace /resources/art/fx/fxspec/abilities/spy/sp_series_of_shots_projectile.fxspec sp_series_of_shots_projectile.fxspec
 
+#SANGUINARY SHOT
+replacegom abl.smuggler.skill.ruffian.sanguinary_shot/15/2 Sanguinary_Shot_bleed-fix.node
+
 #SEARING WAVE
 replacegom epp.bounty_hunter.searing_wave.cast_instant searing_wave-flamethrower-DUAL.node    
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_searing_wave_burst_02_bracer.fxspec searing_wave-flamethrower2-DUAL.fxspec  
@@ -265,6 +271,9 @@ replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_thermal_override.fxs
 
 #TRACER MISSILE
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_fusion_missile_fire.fxspec tracerfiresound-fixed.fxspec
+
+#WOUNDING SHOTS
+replacegom epp.smuggler.wounding_shot.loop_player wounding_shots-fix.node
 
 #UNLOAD
 replacegom epp.bounty_hunter.unload.loop_player unloadpew-fix2.node
