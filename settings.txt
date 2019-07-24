@@ -26,6 +26,9 @@ replace /resources/art/fx/particles/test_p.prt APC-purple_fx2.prt
 replace /resources/art/fx/particles/testroom_lee_blowingsand_01.prt APC-purple_fx3.prt
 replace /resources/art/fx/particles/testroom_lee_blowingsand_01_p.prt APC-purple_fx4.prt
 
+#BLADE BARRAGE
+replacegom epp.jedi_knight.blade_barrage.cast_instant blade_barrage-fix.node
+
 #BLAZING BOLTS
 replacegom epp.bounty_hunter.blazing_bolts.channel_loop Blazingboltspew-fix2.node
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolts_muzzle_flash_dynamic.fxspec Blazingboltspew-fix.fxspec
