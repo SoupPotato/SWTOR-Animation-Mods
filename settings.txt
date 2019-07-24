@@ -123,6 +123,7 @@ replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heatseekermissiles_f
 #HEMORRAHGING BLAST
 replacegom epp.smuggler.hemorrhaging_blast.cast_instant New_hemorrhaging_blast.node
 replacegom abl.smuggler.skill.dirty_fighting.hemorrhaging_blast/16/2 Hemorrhaging_blast_bleed-fix.node
+replace /resources/art/fx/fxspec/103.fxspec serrated_shot_new_impact.fxspec
 
 #HIGH ENERGY GAS CYLINDER
 replace /resources/art/fx/fxspec/abilities/trooper/tr_highenergyclip_muzzle.fxspec highenergycylinder-fix.fxspec
@@ -195,6 +196,10 @@ replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_mounting_darkness_
 #PENETRATING BLASTS
 replace /resources/art/fx/fxspec/abilities/spy/sp_penetrating_blasts_blaster_bolt.fxspec sp_penetrating_blasts_blaster_bolt.fxspec 
 replace /resources/art/fx/fxspec/abilities/spy/sp_penetrating_blasts_muzzle_flash.fxspec sp_penetrating_blasts_muzzle_flash.fxspec
+
+#PENETRATING ROUNDS
+replace /resources/art/fx/fxspec/abilities/smuggler/sm_penetrating_blasts_blaster_bolt.fxspec sp_penetrating_blasts_blaster_bolt.fxspec 
+replace /resources/art/fx/fxspec/abilities/smuggler/sm_penetrating_rounds_muzzle_flash.fxspec sm_penetrating_rounds_muzzle_flash.fxspec
 
 #RAIL SHOT
 replacegom epp.bounty_hunter.rail_shot.rail_shot_fire rail_shot_fire-impact_fix.node
