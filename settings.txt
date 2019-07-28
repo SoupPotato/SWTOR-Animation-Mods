@@ -181,6 +181,12 @@ replacegom epp.world_design.utility.teleports.jetpack_leap_to_location jetpack_l
 replacegom abl.bounty_hunter.kolto_shot/16/1 kolto_shot-fixed.node
 replacegom epp.bounty_hunter.kolto_gas_cylinder.heal_flurry koltoshot-1.0.node
 
+#KOLTO WAVES (Operative)
+replace /resources/art/fx/fxspec/abilities/spy/sp_kolto_waves_aoe_loop.fxspec Operative_kolto_waves_aoe_loop.fxspec
+
+#KOLTO WAVES (Scoundrel)
+replace /resources/art/fx/fxspec/abilities/smuggler/sm_kolto_waves_aoe_loop.fxspec Scoundrel_Kolto_Waves_new.fxspec
+
 #MAG SHOT
 replacegom epp.bounty_hunter.mag_shot.instant_cast mag_shot-velocity_fix.node
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_mag_shot_muzzel_flash_01.fxspec mag_shot-recoil_rings.fxspec
@@ -195,6 +201,9 @@ replace /resources/art/fx/particles/bh_missileblast_trail_p.prt missileblast_tra
 #MOUNTING DARKNESS
 replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_mounting_darkness_decal_loop.fxspec mounting_darkness_transparency-fix.fxspec
 replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_mounting_darkness_decal_end_loop.fxspec mounting_darkness_transparency-fix_end.fxspec
+
+#OBSIDIAN WEAPON TUNING
+replace /resources/art/shaders/materials/mtx_obs_walker_forcefield_suv_01.mat obsidian_shield_improved_texture.mat
 
 #PENETRATING BLASTS
 replace /resources/art/fx/fxspec/abilities/spy/sp_penetrating_blasts_blaster_bolt.fxspec sp_penetrating_blasts_blaster_bolt.fxspec 
