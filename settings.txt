@@ -182,7 +182,7 @@ replacegom abl.bounty_hunter.kolto_shot/16/1 kolto_shot-fixed.node
 replacegom epp.bounty_hunter.kolto_gas_cylinder.heal_flurry koltoshot-1.0.node
 
 #KOLTO WAVES (Operative)
-replace /resources/art/fx/fxspec/abilities/spy/sp_kolto_waves_aoe_loop.fxspec Operative_kolto_waves_aoe_loop.fxspec
+replace /resources/art/fx/fxspec/abilities/spy/sp_kolto_waves_aoe_loop.fxspec Operative_Kolto_Waves_new.fxspec
 
 #KOLTO WAVES (Scoundrel)
 replace /resources/art/fx/fxspec/abilities/smuggler/sm_kolto_waves_aoe_loop.fxspec Scoundrel_Kolto_Waves_new.fxspec
