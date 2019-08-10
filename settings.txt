@@ -52,6 +52,7 @@ replacegom epp.smuggler.wounding_shot.single_cast_instant brutal_shots-fix.node
 
 #COMBUSTIBLE GAS CYLINDER
 replace /resources/art/fx/fxspec/abilities/trooper/tr_plasmaclip_muzzle.fxspec combustablecylinder-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_plasmaclip_target_burn.fxspec CGC+plasma_cell_light-fix.fxspec
 
 #CARBONIZE
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_carbonize_cast.fxspec New_carbonize_Jetpack.fxspec
@@ -173,6 +174,9 @@ replace /resources/art/fx/fxspec/bh_jetboost_smoke.fxspec New_jetboost_heat.fxsp
 replace /resources/art/fx/fxspec/bh_jetboost.fxspec New_jet_to_location.fxspec
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_jet_charge_01.fxspec New_jet_charge_01.fxspec                           
 replace /resources/art/fx/fxspec/bh_deathfromabove_burst.fxspec New_jet_charge_burst.fxspec
+
+#JETPACKS
+replace /resources/art/fx/particles/bh_jetpack_horizontalflare_p.prt New_bh_jetpack_horizontalflare_p.prt
 
 #JUMP ANIMATION (for BHs when clicking objects that cause the palyer to jump to that location)
 replacegom epp.world_design.utility.teleports.jetpack_leap_to_location jetpack_leap_to_location-fix.node
