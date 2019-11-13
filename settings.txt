@@ -112,6 +112,8 @@ replace /resources/art/fx/fxspec/2.fxspec forcequake_fix-4.fxspec
 #FUSION MISSILE
 replacegom abl.bounty_hunter.fusion_missile fusioncast-fixed.node
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_missile_fan_projectile.fxspec fusionfiresound-fixed.fxspec
+replacegom epp.bounty_hunter.fusion_missile.fusion_missile_fire_new fusionfire-fixed.node
+replace /resources/art/fx/fxspec/160.fxspec fusionfiresound-fixed.fxspec
 
 #HEAT BLAST
 replacegom epp.bounty_hunter.heat_blast.cast_instant_new heatblast-new.node
@@ -123,10 +125,13 @@ replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heat_blast_impact_01
 replacegom epp.bounty_hunter.heatseeker_missiles.heatseeker_missiles_cast heatseeker-fixed-New-5.0.node
 replace /resources/art/fx/fxspec/abilities/droid/droid_sky_trooper_heatseeker_missiles_cast.fxspec heatseeker-fixed-New-5.0_render-fix.fxspec
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heatseekermissiles_fake_projectile.fxspec heatseeker-fixed_render-fix.fxspec
+replacegom abl.bounty_hunter.skill.arsenal.heatseeker_missiles/19/2 heatseeker_splash_fix.node
+replacegom epp.test.berck.fire_small heatseeker_splash_fix2.node
+replace /resources/art/fx/fxspec/test_mortar_target.fxspec heatseeker_splash-new.fxspec
 
 #HEMORRAHGING BLAST
 replacegom epp.smuggler.hemorrhaging_blast.cast_instant New_hemorrhaging_blast.node
-replacegom abl.smuggler.skill.dirty_fighting.hemorrhaging_blast/16/2 Hemorrhaging_blast_bleed-fix.node
+replacegom abl.smuggler.skill.dirty_fighting.hemorrhaging_blast/17/2 Hemorrhaging_blast_bleed-fix.node
 replace /resources/art/fx/fxspec/103.fxspec serrated_shot_new_impact.fxspec
 
 #HIGH ENERGY GAS CYLINDER
@@ -182,7 +187,7 @@ replace /resources/art/fx/particles/bh_jetpack_horizontalflare_p.prt New_bh_jetp
 replacegom epp.world_design.utility.teleports.jetpack_leap_to_location jetpack_leap_to_location-fix.node
 
 #KOLTO SHOT
-replacegom abl.bounty_hunter.kolto_shot/16/1 kolto_shot-fixed.node
+replacegom abl.bounty_hunter.kolto_shot/17/1 kolto_shot-fixed.node
 replacegom epp.bounty_hunter.kolto_gas_cylinder.heal_flurry koltoshot-1.0.node
 
 #KOLTO WAVES (Operative)
@@ -285,6 +290,9 @@ replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_thermal_override.fxs
 #TRACER MISSILE
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_fusion_missile_fire.fxspec tracerfiresound-fixed.fxspec
 
+#TRAUMA PROBE
+replace /resources/art/fx/fxspec/abilities/trooper/tr_trauma_probe_skeletal_target.fxspec trauma_probe_skeletal_target-fix.fxspec
+
 #WOUNDING SHOTS
 replacegom epp.smuggler.wounding_shot.loop_player wounding_shots-fix.node
 
@@ -303,7 +311,7 @@ replacegom abl.companion.unique.kotfe.zoom.dps.aoe_attack zoom_supressive-fix.no
 
 #PROBE DROID COMPANION
 replacegom epp.flurry.droid.probe_droid.probe_droid_ranged New_probe_droid_universal_flurry.node
-replacegom abl.companion.weapon_set.probe_droid.flurry/6/1 probe_droid_blaster-fix.node
+replacegom abl.companion.weapon_set.probe_droid.flurry/7/1 probe_droid_blaster-fix.node
 
 #ANIHILATOR T4-1D COMPANION & TY-4N COMPANION
 replacegom epp.companion.unique.mtx.colicoid.dps.aoe_attack colicoid_missile-fix.node
@@ -318,16 +326,12 @@ replacegom epp.companion.unique.mtx.iokath_tank.dps.single_target_damage H1-K1_n
 #K1-Z3N COMPANION
 replacegom epp.test.jr.flurry.tripleblow_1 k1-z3n_blast-upgrade1.node
 replacegom abl.companion.unique.mtx.iokath_assault.dps.single_target_attack/4/1 k1-z3n_blast-upgrade2.node
-replacegom abl.companion.unique.mtx.iokath_assault.dps.aoe_attack k1-z3n_comp_supressive-fix.node
 
 #UNIVERSAL BLASTER RIFLE COMPANIONS
 replacegom epp.test.bug.agent.rushed_shot.rushed_shot_cast new_comp-supressive.node
 
 #UNIVERSAL SNIPER RIFLE COMPANIONS
 replacegom abl.companion.weapon_set.sniper_rifle.dps.aoe_attack sniper+rifle_comp_supressive-fix.node
-
-#UNIVERSAL BLASTER PISTOL COMPANIONS
-replacegom abl.companion.weapon_set.blaster.dps.aoe_attack blaster_comp_supressive-fix.node
 
 #UNIVERSAL ASSAULT CANNON COMPANIONS
 replacegom abl.companion.weapon_set.assault_cannon.dps.aoe_attack cannon_comp_supressive-fix.node
@@ -371,6 +375,10 @@ replace /resources/art/fx/particles/op_yav_rev_maelstrom_unstable_smoke_thin_fac
 #SCYVA FIGHT BRIGHTER AOE INDICATORS
 replace /resources/art/shaders/materials/skyva_sterarray_ring6m_sect01.mat skyva_sterarray_ring6m_sect01.mat
 
+
+;--------------------------------------------------PARTICLE IMPROVEMENTS---------------------------------------------------
+#OBSIDIAN WALKER AND TUNINGS
+replace /resources/art/shaders/materials/mtx_obs_walker_forcefield_suv_01.mat obsidian_shield_improved_texture.mat
 
 
 ;--------------------------------------------------TEXTURE/ICON FIXES---------------------------------------------------
