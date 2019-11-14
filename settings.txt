@@ -104,7 +104,7 @@ replace /resources/art/fx/particles/bh_flame_sweep_flamethrower_main_p.prt New_f
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_flaming_fist_backpack.fxspec New_flamingfist_jetpack.fxspec
 
 #FORCE QUAKE
-replacegom abl.jedi_consular.forcequake/25/1 forcequake_fix-1.node
+replacegom abl.jedi_consular.forcequake/27/1 forcequake_fix-1.node
 replacegom epp.e3.jedi_boss.force_slam forcequake_fix-2.node
 replacegom epp.e3.jedi_boss.force_push forcequake_fix-3.node
 replace /resources/art/fx/fxspec/2.fxspec forcequake_fix-4.fxspec
