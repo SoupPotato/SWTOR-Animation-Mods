@@ -169,7 +169,7 @@ replace /resources/art/fx/fxspec/abilities/trooper/tr_ion_storm_cast.fxspec Ion-
 
 #ION WAVE
 replacegom epp.trooper.ion_squall.cast_instant Ion-Wave_New.node
-replace /resources/art/fx/fxspec/abilities/trooper/tr_ionstorm_cast_instant_01.fxspec Ion-Wave_New.fxspec
+replace /resources/art/fx/fxspec/test_disappear.fxspec Ion-Wave_New.fxspec
 
 #JET BOOST
 replacegom epp.bounty_hunter.jet_boost.jet_boost_cast Jet_Boost_Update.node
