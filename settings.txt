@@ -411,3 +411,25 @@ replace /resources/anim/humanoid/bmnnew/cb_2pistol_unload_end.jba bmn_cb_2pistol
 
 #OSSUS SPIDER DROID NPCS
 replace /resources/art/dynamic/creature/model/acklay_archno_a01.gr2 Cartel_Spider-Droid_fix.gr2
+
+
+
+
+;----------------------------------------------JETPACK MODEL FIXES----------------------------------------------
+;bma = MBT1  
+;bmn = MBT2  
+;bms = MBT3  
+;bmf = MBT4  
+;bfa = FBT1  
+;bfn = FBT2  
+;bfs = FBT3  
+;bfb = FBT4
+replace /resources/art/dynamic/chest/model/chest_armor01_bma_heavy_bh_a02_back.gr2 chest_armor01_mbt1_heavy_bh_a02_back.gr2
+replace /resources/art/dynamic/chest/model/chest_armor01_bmn_heavy_bh_a02_back.gr2 chest_armor01_mbt2_heavy_bh_a02_back.gr2
+replace /resources/art/dynamic/chest/model/chest_armor01_bmn_heavy_bh_a02_shld.gr2 chest_armor01_mbt2_heavy_bh_a02_shld.gr2
+replace /resources/art/dynamic/chest/model/chest_armor01_bms_heavy_bh_a02_back.gr2 chest_armor01_mbt3_heavy_bh_a02_back.gr2
+replace /resources/art/dynamic/chest/model/chest_armor01_bmf_heavy_bh_a02_back.gr2 chest_armor01_mbt4_heavy_bh_a02_back.gr2
+replace /resources/art/dynamic/chest/model/chest_armor01_bfa_heavy_bh_a02_back.gr2 chest_armor01_fbt1_heavy_bh_a02_back.gr2
+replace /resources/art/dynamic/chest/model/chest_armor01_bfn_heavy_bh_a02_back.gr2 chest_armor01_fbt2_heavy_bh_a02_back.gr2
+replace /resources/art/dynamic/chest/model/chest_armor01_bfs_heavy_bh_a02_back.gr2 chest_armor01_fbt3_heavy_bh_a02_back.gr2
+replace /resources/art/dynamic/chest/model/chest_armor01_bfb_heavy_bh_a02_back.gr2 chest_armor01_fbt4_heavy_bh_a02_back.gr2
