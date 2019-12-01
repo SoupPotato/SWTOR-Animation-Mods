@@ -413,8 +413,6 @@ replace /resources/anim/humanoid/bmnnew/cb_2pistol_unload_end.jba bmn_cb_2pistol
 replace /resources/art/dynamic/creature/model/acklay_archno_a01.gr2 Cartel_Spider-Droid_fix.gr2
 
 
-
-
 ;----------------------------------------------JETPACK MODEL FIXES----------------------------------------------
 ;bma = MBT1  
 ;bmn = MBT2  
