@@ -128,6 +128,7 @@ replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heatseekermissiles_f
 replacegom abl.bounty_hunter.skill.arsenal.heatseeker_missiles/19/2 heatseeker_splash_fix.node
 replacegom epp.test.berck.fire_small heatseeker_splash_fix2.node
 replace /resources/art/fx/fxspec/test_mortar_target.fxspec heatseeker_splash-new.fxspec
+replace /resources/art/fx/fxspec/198.fxspec heatseeker-explosion.fxspec
 
 #HEMORRAHGING BLAST
 replacegom epp.smuggler.hemorrhaging_blast.cast_instant New_hemorrhaging_blast.node
@@ -206,6 +207,9 @@ replace /resources/art/fx/particles/bh_mag_shot_trail_01_p.prt mag_shot_extended
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_missileblast_fakeprojectile.fxspec missileblast_new.fxspec
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_missile_projectile_lod_01.fxspec missileblast5.0_render-fix.fxspec
 replace /resources/art/fx/particles/bh_missileblast_trail_p.prt missileblast_trail-fix.prt
+
+#MORTAR VOLLEY
+replace /resources/art/fx/fxspec/abilities/trooper/tr_mortar_volley_fakeprojectile_new.fxspec Mortar_Volley_fix.fxspec
 
 #MOUNTING DARKNESS
 replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_mounting_darkness_decal_loop.fxspec mounting_darkness_transparency-fix.fxspec
@@ -370,10 +374,9 @@ replace /resources/art/fx/particles/op_yav_rev_maelstrom_unstable_core_flames_p.
 replace /resources/art/fx/particles/op_yav_rev_maelstrom_unstable_core_ring_p.prt red_unstable_abberation_core_ring.prt
 replace /resources/art/fx/particles/op_yav_rev_maelstrom_unstable_flames_p.prt red_unstable_abberation_flames.prt
 replace /resources/art/fx/particles/op_yav_rev_maelstrom_unstable_smoke_thin_facing_p.prt red_unstable_abberation_smoke.prt
-
-
-#SCYVA FIGHT BRIGHTER AOE INDICATORS
 replace /resources/art/shaders/materials/skyva_sterarray_ring6m_sect01.mat skyva_sterarray_ring6m_sect01.mat
+replace /resources/art/fx/fxspec/operations/rishi/buddy_battledroid/thermite_mortar_gtae_expanding.fxspec thermite_mortar_gtae_expanding.fxspec
+replace /resources/art/fx/fxspec/operations/rishi/buddy_battledroid/thermite_mortar_gtae.fxspec thermite_mortar_gtae.fxspec
 
 
 ;--------------------------------------------------PARTICLE IMPROVEMENTS---------------------------------------------------
@@ -431,3 +434,12 @@ replace /resources/art/dynamic/chest/model/chest_armor01_bfa_heavy_bh_a02_back.g
 replace /resources/art/dynamic/chest/model/chest_armor01_bfn_heavy_bh_a02_back.gr2 chest_armor01_fbt2_heavy_bh_a02_back.gr2
 replace /resources/art/dynamic/chest/model/chest_armor01_bfs_heavy_bh_a02_back.gr2 chest_armor01_fbt3_heavy_bh_a02_back.gr2
 replace /resources/art/dynamic/chest/model/chest_armor01_bfb_heavy_bh_a02_back.gr2 chest_armor01_fbt4_heavy_bh_a02_back.gr2
+replace /resources/art/dynamic/chest/model/chest_baggy_bma_med_bh_a01_back.gr2 chest_baggy_mbt1_med_bh_a01_back.gr2
+replace /resources/art/dynamic/chest/model/chest_baggy_bmn_med_bh_a01_back.gr2 chest_baggy_mbt2_med_bh_a01_back.gr2
+replace /resources/art/dynamic/chest/model/chest_baggy_bms_med_bh_a01_back.gr2 chest_baggy_mbt3_med_bh_a01_back.gr2
+replace /resources/art/dynamic/chest/model/chest_baggy_bmf_med_bh_a01_back.gr2 chest_baggy_mbt4_med_bh_a01_back.gr2
+replace /resources/art/dynamic/chest/model/chest_baggy_bfa_med_bh_a01_back.gr2 chest_baggy_fbt1_med_bh_a01_back.gr2
+replace /resources/art/dynamic/chest/model/chest_baggy_bfn_med_bh_a01_back.gr2 chest_baggy_fbt2_med_bh_a01_back.gr2
+replace /resources/art/dynamic/chest/model/chest_baggy_bfs_med_bh_a01_back.gr2 chest_baggy_fbt3_med_bh_a01_back.gr2
+replace /resources/art/dynamic/chest/model/chest_baggy_bfb_med_bh_a01_back.gr2 chest_baggy_fbt4_med_bh_a01_back.gr2
+
