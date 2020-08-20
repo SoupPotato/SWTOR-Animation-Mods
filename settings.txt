@@ -285,6 +285,12 @@ replacegom epp.bounty_hunter.sweeping_blasters.channel_loop sweeping_blasters-mu
 #SWEEPING GUNFIRE
 replacegom epp.smuggler.sweeping_gunfire sweeping_gunfire-muzzle_fix.node
 
+#TELEKINETIC BURST
+replacegom abl.jedi_consular.skill.telekinetics.telekinetic_burst telekinetic_burst-fix.node
+replacegom epp.test.austin.tkb_instant telekinetic_burst-fix2.node
+replacegom epp.jedi_consular.telekinetic_gust.rockwatch stormwatch_sage-fix.node
+replace /resources/art/fx/fxspec/abilities/jedi_consular/jc_telekinetic_blitz_impact.fxspec jc_telekinetic_blitz_impact.fxspec
+
 #TERMINAL VELOCITY NEW ICON
 replacegom abl.bounty_hunter.skill.arsenal.terminal_velocity terminalvelocity-newicon.node
 
