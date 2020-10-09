@@ -62,6 +62,15 @@ replacegom epp.agent.cull.loop cull-muzzle_fix.node
 
 #DARK WARD
 replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_dark_ward_loop_fast.fxspec darkwardholocron.fxspec
+replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_dark_ward_barrier_loop.fxspec darkward_nobarrier.fxspec
+replace /resources/art/fx/particles/si_dark_ward_orb_core_01.prt darkward_main_peice_glow_glare.prt
+replace /resources/art/fx/particles/si_dark_ward_orb_core_01_p.prt darkward_main_peice_glow_glare_p.prt
+replace /resources/art/fx/particles/si_dark_ward_orb_core_02.prt darkward_main_peice_round_glow_glare_flash.prt
+replace /resources/art/fx/particles/si_dark_ward_orb_core_02_p.prt darkward_main_peice_round_glow_glare_flash_p.prt
+replace /resources/art/fx/particles/si_dark_ward_orb_core_03.prt darkward_main_peice_round_glow.prt
+replace /resources/art/fx/particles/si_dark_ward_orb_core_03_p.prt darkward_main_peice_round_glow_p.prt
+replace /resources/art/fx/particles/si_dark_ward_orb_core_04.prt darkward_main_peice_glow_and_trails.prt
+replace /resources/art/fx/particles/si_dark_ward_orb_core_04_p.prt darkward_main_peice_glow_and_trails_p.prt
 
 #DEADLY ONSLAUGHT
 replacegom epp.bounty_hunter.ordnance_onslaught.missile_barrage deadlyonslaught_rocketbackpack-fix3.node

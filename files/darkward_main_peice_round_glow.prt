@@ -1,0 +1,48 @@
+!
+! Particle Specification
+!
+Version=3
+AreaGUID=4611686334143840014
+[SETTINGS]
+  .Name=/art/fx/particles/main_peice_round_glow.prt
+  .Folder=/art/fx/particles/
+  .ParticleType=BASIC_EMITTER
+  .EmitAtDeathSpec=
+  .UpdateRate=NORMAL
+  .EmitSpec=/art/fx/particles/si_dark_ward_orb_core_03_p.prt
+  .LifeSpan=
+  .InitialRotation2D=<-180,180,90,0>
+  .EmitFrequency=0.1
+  .AttractorPosition=
+  .AttractorStrength=
+  .CollideWithAttractor=false
+  .UseChaseTarget=false
+  .DeltaRotation3D=
+  .DistanceRateAdjustment=1
+  .LinkChildren=true
+  .LinkToCamera=false
+  .LockRotation=false
+  .RunUp=false
+  .ChildrenInheritMomentum=false
+  .MaxDistanceFromCamera=0
+  .MinDistanceFromCamera=0
+  .NumberToEmit=1
+  .MaxActiveEmissions=1000
+  .SubFrameParticleDistribution=false
+  .MinParticlesPerMeter=0
+  .InitialRotation3D=
+  .DeltaRotationUseLocalSpace=false
+  .EmitterShape=Point
+  .InitialParticleVelocity=
+  .ShellThickness=
+  .EmitterRadius=(0,<-0.025,0.025,0.025,0>,0)
+  .WithinRadius=
+  .CapsuleRadius=
+  .Height=
+  .PosZRadius=
+  .NegZRadius=
+  .DomeAmount=
+  .BoxSize=
+  .AlignToNormal=false
+  .EllipsoidRadii=
+  .SprayAngle=
