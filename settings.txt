@@ -55,8 +55,7 @@ replace /resources/art/fx/fxspec/abilities/trooper/tr_plasmaclip_muzzle.fxspec c
 replace /resources/art/fx/fxspec/abilities/trooper/tr_plasmaclip_target_burn.fxspec CGC+plasma_cell_light-fix.fxspec
 
 #CARBONIZE
-replacegom epp.bounty_hunter.carbonize.carbonize_cast New_carbonize_Jetpack.node
-replace /resources/art/fx/fxspec/381.fxspec New_carbonize_Jetpack.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_carbonize_cast.fxspec New_carbonize_Jetpack.fxspec
 
 #CULL
 replacegom epp.agent.cull.loop cull-muzzle_fix.node
@@ -112,6 +111,12 @@ replace /resources/art/fx/particles/bh_flame_sweep_flamethrower_main_p.prt New_f
 
 #FLAMING FIST
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_flaming_fist_backpack.fxspec New_flamingfist_jetpack.fxspec
+
+#FORCE QUAKE
+replacegom abl.jedi_consular.forcequake/27/1 forcequake_fix-1.node
+replacegom epp.e3.jedi_boss.force_slam forcequake_fix-2.node
+replacegom epp.e3.jedi_boss.force_push forcequake_fix-3.node
+replace /resources/art/fx/fxspec/2.fxspec forcequake_fix-4.fxspec
 
 #FUSION MISSILE
 replacegom abl.bounty_hunter.fusion_missile fusioncast-fixed.node
@@ -290,6 +295,8 @@ replacegom epp.bounty_hunter.sweeping_blasters.channel_loop sweeping_blasters-mu
 replacegom epp.smuggler.sweeping_gunfire sweeping_gunfire-muzzle_fix.node
 
 #TELEKINETIC BURST
+replacegom abl.jedi_consular.skill.telekinetics.telekinetic_burst telekinetic_burst-fix.node
+replacegom epp.test.austin.tkb_instant telekinetic_burst-fix2.node
 replacegom epp.jedi_consular.telekinetic_gust.rockwatch stormwatch_sage-fix.node
 replace /resources/art/fx/fxspec/abilities/jedi_consular/jc_telekinetic_blitz_impact.fxspec jc_telekinetic_blitz_impact.fxspec
 
@@ -393,6 +400,16 @@ replace /resources/art/shaders/materials/mtx_obs_walker_forcefield_suv_01.mat ob
 
 
 ;--------------------------------------------------TEXTURE/ICON FIXES---------------------------------------------------
+#5.0 STIMS & ADRENALS
+replace /resources/gfx/icons/kotet_stimpack_blue.dds kotet_stimpack_blue.dds
+replace /resources/gfx/icons/kotet_stimpack_red.dds kotet_stimpack_red.dds
+replace /resources/gfx/icons/kotet_stimpack_yellow.dds kotet_stimpack_yellow.dds
+replace /resources/gfx/icons/kotet_adrenal_blue.dds kotet_adrenal_blue.dds
+replace /resources/gfx/icons/kotet_adrenal_green.dds kotet_adrenal_green.dds
+replace /resources/gfx/icons/kotet_adrenal_red.dds kotet_adrenal_red.dds
+replace /resources/gfx/icons/kotet_medpack_green.dds kotet_medpack_green.dds
+replace /resources/gfx/icons/kotet_medpack_greenvariant.dds kotet_medpack_greenvariant.dds
+
 #MASTER HUNTER'S HEADGEAR
 replace /resources/gfx/icons/ipp.custom.social.bounty_hunting.master_hunter.head.dds master_hunter-icon_fix.dds
 
