@@ -1,4 +1,4 @@
----------------------------------------
+              ---------------------------------------
                         SWTOR FILE CHANGER
                            by SWTOR fan
               ---------------------------------------
@@ -25,52 +25,82 @@ Microsoft .NET Framework 4.5 installed on your computer. You can download
 it at http://www.microsoft.com/en-us/download/details.aspx?id=30653
 
 
-!!Note that the tool needs to be restarted whenever you make a change
-to the settings.txt file.!!
+== Editing the settings.txt file ==
+The settings.txt file contains the list of files that should be
+replaced by the tool. Each file needs to be placed on a separate line
+in the following format:
 
+  replace /resources/path_name.dds replace_file.dds
+
+Where the second part is the SWTOR path of the file you wish to
+replace, and the last part contains the file that should be used to
+replace the file. The three parts are separated by a single space.
+
+If you do not know the file name, you can write the hash instead:
+
+  replace 0738C4CF_91905309 empty.gr2
+
+Also, you can replace nodes in the Game Object Model with the following
+command, where the second path is the FQN of the node:
+
+  replacegom abl.insert.fqn.path.here new_node.node
+
+All files that you want to replace need to be put in the "files"
+folder, under the name as specified in the settings.txt file.
+
+Lines that do not begin with "replace " are ignored, so you can enter
+comments starting with # and group the files into sections.
+
+Note that the tool needs to be restarted whenever you make a change
+to the settings.txt file.
+
+
+Example:
+ replace /resources/art/dynamic/player_character/outfit/all_naked_body/texture/___psd/chest_naked_caucasian_young_a01c01_bfa_h.dds skin_human.dds
+
+This line replaces a chest texture in the game with the file called
+"skin_human.dds" in the "files" folder.
 
 
 == How to use the tool ==
+To start the tool, open the SWTOR-File-Changer.exe file. At the top
+of the screen, you can select the folder where you have SWTOR
+installed. The tool tries to find the path automatically, but if
+have SWTOR installed in a different path than the default directory,
+press the "Browse..." button and select the installation folder.
 
-Before starting, this tool will only work if you are using the Non-Bitraider version of the client.
-If you are using Bitraider then you will need to remove and unistall it. 
-This will result in a complete reinstallation of the game.
+In the big list box you will find all the entries from the
+settings.txt file. Here you can check whether the settings.txt file
+was read correctly or if you made a mistake.
 
-Guide to remove Bitraider:
-https://www.reddit.com/r/swtor/comments/3ksypm/guide_to_permanently_removing_bitraider_and/
+With the radio buttons above the list box you can specify which
+environment should be edited: the normal game, or the Public Test
+Server (PTS). This includes both the Assets folder, as well as the
+UI file in the client folder. Note that you need to have the PTS
+installed before you can edit it.
 
+With the button "Start changing files" the tool will start searching
+through the game files and replace all results from the settings.txt
+file it finds.
 
+By default, the tool automatically creates a backup of all game files
+that get changed. This way, you can easily go back to the old version
+when the game no longer works, or when a new patch has to be downloaded.
+You can disable this functionality by unchecking the "create backup"
+checkbox, but this is NOT recommended.
 
-Once that is done and you are ready, follow these steps:
+When you need to restore the backup, press the "Restore backup" button
+in the lower righthand corner. The tool will restore all game files
+it can find in the "backup" folder and copy them to your SWTOR
+installation folder. Following that, you can once again start changing
+the files.
 
-
-1.Set the director to the location of your SWTOR files:
-
-In most cases:
-
-"C:\Program Files (x86)\Electronic Arts\Bioware\Star Wars - The Old Republic"
-
-
-
-2.Make sure "Live" is selected and not pts.
-
-
-
-3.Make sure "create backup" is checked. This will auto-create backup files of your assets so
-you can restore them at any time.
-
-
-
-4. Once all is ready, click "Start Changing Files".
-This process can take a minute or two depending on your CPU speed.
-Please wait for it to finish, it may look like it is frozen at times but it is working.
-
-
-
-If there are any changes you do not wish to use, simply add a semicolon (;) to the start of their line in the 'settings.txt'. 
-Be aware that some changes are made up of 2 or more files so be sure to add semicolon to those as well.
-
-----VERY IMPORTANT----
-
-As stated before please remember to restore your backup assets 
-before downloading a new patch when one releases.
+If you need to extract an original file so that you can create the
+replacement file, press the "Extract file" and enter the file you want
+to extract. Note that you need to know the name so that you can extract
+it. Extracted files can be found in the "extracted" folder. Go ahead and
+change them, copy them to your "files" folder, edit the settings.txt
+file and you are good to go! Please note that when you have already used
+the tool to replace a file, the extract function will extract your edited
+file, not the original file. In that case, you need to restore the backup
+if you want to get the original file.
