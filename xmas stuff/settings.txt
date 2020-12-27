@@ -1,13 +1,24 @@
-#fxspec fixes
-replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolts_muzzle_flash_dynamic.fxspec typical_muzzle_flash.fxspec
-replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolts_bolt_dynamic.fxspec blazing_bolts_bolt_dynamic.fxspec
-replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolts_bolt_dynamic_02.fxspec blazing_bolts_bolt_dynamic_02.fxspec
-replace /resources/art/fx/fxspec/abilities/blasterfire/dynamic_standard_blaster_bolt.fxspec typical_blaster_bolt.fxspec
-replace /resources/art/fx/fxspec/abilities/blasterfire/dynamic_standard_blaster_bolt_and_trail.fxspec typical_blaster_bolt.fxspec
-replace /resources/art/fx/fxspec/bh_rail_shot_impact_small.fxspec typical_blaster_impact.fxspec
-replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolt_impact_dynamic.fxspec typical_blaster_impactBB.fxspec
-replace /resources/art/fx/fxspec/abilities/spy/sp_penetrating_blasts_blaster_bolt.fxspec typical_blaster_bolt.fxspec
-replace /resources/art/fx/fxspec/abilities/spy/sp_penetrating_blasts_muzzle_flash.fxspec typical_muzzle_flash.fxspec
-replace /resources/art/fx/fxspec/abilities/spy/sp_series_of_shots_projectile.fxspec typical_blaster_bolt.fxspec
-replace /resources/art/fx/fxspec/abilities/blasterfire/dynamic_standard_blaster_muzzle_flash.fxspec typical_muzzle_flash.fxspec
-replace /resources/art/fx/fxspec/349.fxspec typical_blaster_impact.fxspec
+#xmas stuff
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolts_muzzle_flash_dynamic.fxspec xmastypical_muzzle_flash_snow.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolts_bolt_dynamic.fxspec xmasblazing_bolts_bolt_dynamic_snow.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolts_bolt_dynamic_02.fxspec xmasblazing_bolts_bolt_dynamic_02_snow.fxspec
+replace /resources/art/fx/fxspec/abilities/blasterfire/dynamic_standard_blaster_bolt.fxspec xmastypical_blaster_bolt_snow.fxspec
+replace /resources/art/fx/fxspec/abilities/blasterfire/dynamic_standard_blaster_bolt_and_trail.fxspec xmastypical_blaster_bolt_snow.fxspec
+replace /resources/art/fx/fxspec/bh_rail_shot_impact_small.fxspec xmastypical_blaster_impact_snow.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_blazing_bolt_impact_dynamic.fxspec xmastypical_blaster_impactBB_snow.fxspec
+replace /resources/art/fx/fxspec/abilities/spy/sp_penetrating_blasts_blaster_bolt.fxspec xmastypical_blaster_bolt_snow.fxspec
+replace /resources/art/fx/fxspec/abilities/spy/sp_penetrating_blasts_muzzle_flash.fxspec xmastypical_muzzle_flash_snow.fxspec
+replace /resources/art/fx/fxspec/abilities/spy/sp_series_of_shots_projectile.fxspec xmastypical_blaster_bolt_snow.fxspec
+replace /resources/art/fx/fxspec/abilities/blasterfire/dynamic_standard_blaster_muzzle_flash.fxspec xmastypical_muzzle_flash_snow.fxspec
+replace /resources/art/fx/fxspec/371.fxspec xmastypical_blaster_impact_snow.fxspec
+replace /resources/art/fx/fxspec/333.fxspec xmastypical_blaster_impact_snow.fxspec
+replace /resources/art/fx/fxspec/349.fxspec xmastypical_blaster_impact_snow.fxspec
+replace /resources/art/fx/fxspec/368.fxspec xmastypical_blaster_impact_snow.fxspec
+replace /resources/art/fx/fxspec/253.fxspec xmastypical_blaster_impact_snow.fxspec
+replace /resources/art/fx/fxspec/163.fxspec xmastypical_blaster_impact_snow.fxspec
+replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_thundering_blast_projectile.fxspec xmassi_thundering_blast_projectile_snow.fxspec
+replace /resources/art/fx/fxspec/all_lightsaber_dynamic.fxspec xmasall_lightsaber_dynamic_icicle.fxspec
+replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_thundering_blast_cast.fxspec xmassi_thundering_blast_cast_snow.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_fusion_missile_fire.fxspec xmastracerfiresound-fixed.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_tactical_nuke_explosion.fxspec xmasmissile_explosion.fxspec
+replace /resources/art/fx/fxspec/abilities/droid/droid_sky_trooper_heatseeker_missiles_cast.fxspec xmasheatseekers.fxspec

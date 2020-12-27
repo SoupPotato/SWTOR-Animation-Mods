@@ -393,16 +393,6 @@ replace /resources/art/shaders/materials/mtx_obs_walker_forcefield_suv_01.mat ob
 
 
 ;--------------------------------------------------TEXTURE/ICON FIXES---------------------------------------------------
-#5.0 STIMS & ADRENALS
-replace /resources/gfx/icons/kotet_stimpack_blue.dds kotet_stimpack_blue.dds
-replace /resources/gfx/icons/kotet_stimpack_red.dds kotet_stimpack_red.dds
-replace /resources/gfx/icons/kotet_stimpack_yellow.dds kotet_stimpack_yellow.dds
-replace /resources/gfx/icons/kotet_adrenal_blue.dds kotet_adrenal_blue.dds
-replace /resources/gfx/icons/kotet_adrenal_green.dds kotet_adrenal_green.dds
-replace /resources/gfx/icons/kotet_adrenal_red.dds kotet_adrenal_red.dds
-replace /resources/gfx/icons/kotet_medpack_green.dds kotet_medpack_green.dds
-replace /resources/gfx/icons/kotet_medpack_greenvariant.dds kotet_medpack_greenvariant.dds
-
 #MASTER HUNTER'S HEADGEAR
 replace /resources/gfx/icons/ipp.custom.social.bounty_hunting.master_hunter.head.dds master_hunter-icon_fix.dds
 
