@@ -1,0 +1,2 @@
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_searing_wave_burst_02_bracer.fxspec searing_wave-flamethrower2.fxspec 
+replacegom epp.bounty_hunter.searing_wave.cast_instant searing_wave-flamethrower.node

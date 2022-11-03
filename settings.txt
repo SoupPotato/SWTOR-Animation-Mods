@@ -11,10 +11,10 @@ replace /resources/art/fx/fxspec/abilities/all/all_rep_target_reticle_gtaoe_init
 replace /resources/art/fx/fxspec/mtx/mtx_emote_one_man_band_anniv_fwx.fxspec mtx_emote_one_man_band_anniv_fwx.fxspec
 
 #ARMOR PEIRCING CELL
-#General
+;--#General
 replace /resources/art/fx/fxspec/abilities/trooper/tr_armorpiercing_caster_muzzle_cannon_op.fxspec armorpiercing_cell-fix.fxspec
-#Purple
-replacegom abl.trooper.skill.gunnery.armor_piercing_cell/6/2 APC-purple.node
+;--#Purple
+replacegom abl.trooper.skill.gunnery.armor_piercing_cell/9/2 APC-purple.node
 replacegom epp.trooper.kolto_cell.tick APC-purple2.node
 replace /resources/art/fx/fxspec/test/cschmidt/missile_prj.fxspec APC-purple_muzzle_cannon.fxspec
 replace /resources/art/fx/geometry/trooper/fx_tr_armorpiercingclip_rings.gr2 APC-purple_ring.gr2
@@ -51,8 +51,7 @@ replace /resources/art/fx/fxspec/abilities/trooper/tr_boltstorm_bolt_impact.fxsp
 replacegom epp.smuggler.wounding_shot.single_cast_instant brutal_shots-fix.node
 
 #COMBUSTIBLE GAS CYLINDER
-replace /resources/art/fx/fxspec/abilities/trooper/tr_plasmaclip_muzzle.fxspec combustablecylinder-fix.fxspec
-replace /resources/art/fx/fxspec/abilities/trooper/tr_plasmaclip_target_burn.fxspec CGC+plasma_cell_light-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_combustable_gas_cylinder_muzzle.fxspec combustablecylinder-fix.fxspec
 
 #CARBONIZE
 replace /resources/art/fx/fxspec/381.fxspec New_carbonize_Jetpack.fxspec
@@ -63,7 +62,6 @@ replacegom epp.agent.cull.loop cull-muzzle_fix.node
 
 #DARK WARD
 replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_dark_ward_loop_fast.fxspec darkwardholocron.fxspec
-replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_dark_ward_barrier_loop.fxspec darkward_nobarrier.fxspec
 replace /resources/art/fx/particles/si_dark_ward_orb_core_01.prt darkward_main_peice_glow_glare.prt
 replace /resources/art/fx/particles/si_dark_ward_orb_core_01_p.prt darkward_main_peice_glow_glare_p.prt
 replace /resources/art/fx/particles/si_dark_ward_orb_core_02.prt darkward_main_peice_round_glow_glare_flash.prt
@@ -125,28 +123,26 @@ replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heat_blast_wrist_bur
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heat_blast_projectile_01.fxspec heatblast-new_projectile.fxspec
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heat_blast_impact_01.fxspec heatblast-new_impact.fxspec
 
-#HEATSEEKER MISSILE
+#HEATSEEKER MISSILES
 replacegom epp.bounty_hunter.heatseeker_missiles.heatseeker_missiles_cast heatseeker-fixed-New-5.0.node
-replace /resources/art/fx/fxspec/abilities/droid/droid_sky_trooper_heatseeker_missiles_cast.fxspec heatseeker-fixed-New-5.0_render-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/droid/droid_sky_trooper_heatseeker_missiles_cast.fxspec heatseeker-fixed-New-5.0_render-fix_classic_movement.fxspec
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_heatseekermissiles_fake_projectile.fxspec heatseeker-fixed_render-fix.fxspec
-replacegom abl.bounty_hunter.skill.arsenal.heatseeker_missiles/19/2 heatseeker_splash_fix.node
-replacegom epp.test.berck.fire_small heatseeker_splash_fix2.node
-replace /resources/art/fx/fxspec/test_mortar_target.fxspec heatseeker_splash-new.fxspec
 replace /resources/art/fx/fxspec/198.fxspec heatseeker-explosion.fxspec
 
-#HEMORRAHGING BLAST
-replacegom epp.smuggler.hemorrhaging_blast.cast_instant New_hemorrhaging_blast.node
-replacegom abl.smuggler.skill.dirty_fighting.hemorrhaging_blast/17/2 Hemorrhaging_blast_bleed-fix.node
-replace /resources/art/fx/fxspec/103.fxspec serrated_shot_new_impact.fxspec
+#HEAVY FLAMETHROWER
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_firestorm_thrower_01.fxspec Heavy_Flamethrower_New.fxspec
+
+#HIGH ENERGY CELL
+replace /resources/art/fx/fxspec/abilities/trooper/tr_highenergyclip_muzzle.fxspec highenergycell-fix.fxspec
 
 #HIGH ENERGY GAS CYLINDER
-replace /resources/art/fx/fxspec/abilities/trooper/tr_highenergyclip_muzzle.fxspec highenergycylinder-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_high_energy_cylinder_muzzle.fxspec highenergycylinder-fix.fxspec
 
 #HIGH VELOCITY GAS CYLINDER
 #General
 replace /resources/art/fx/fxspec/abilities/trooper/tr_armorpiercing_caster_muzzle_op.fxspec highvelocitycylinder-fix.fxspec
 #Purple
-replacegom abl.bounty_hunter.skill.arsenal.high_velocity_gas_cylinder/7/2 HVGC-purple.node
+replacegom abl.bounty_hunter.skill.arsenal.high_velocity_gas_cylinder/10/2 HVGC-purple.node
 replacegom epp.bounty_hunter.kolto_gas_cylinder.tick HVGC-purple2.node
 replace /resources/art/fx/fxspec/test/cschmidt/missile_prj_r.fxspec HVGC-purple_muzzle.fxspec
 replace /resources/art/fx/particles/bh_blazing_bolt_sparks_dynamic.prt HVGC-purple_fx.prt
@@ -207,6 +203,11 @@ replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_mag_shot_muzzel_flas
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_mag_shot_projectile.fxspec mag_shot_rails.fxspec
 replace /resources/art/fx/particles/bh_mag_shot_trail_01_p.prt mag_shot_extended_trail.prt
 
+#MAG SHOT
+replace /resources/art/fx/fxspec/abilities/trooper/tr_mag_bolt_impact_02.fxspec mag_bolt_impact.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_mag_bolt_projectile.fxspec mag_bolt_rail.fxspec
+replacegom epp.trooper.mag_bolt.fire mag_bolt-fix.node
+
 #MISSILE BLAST
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_missileblast_fakeprojectile.fxspec missileblast_new.fxspec
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_missile_projectile_lod_01.fxspec missileblast5.0_render-fix.fxspec
@@ -229,6 +230,10 @@ replace /resources/art/fx/fxspec/abilities/spy/sp_penetrating_blasts_muzzle_flas
 #PENETRATING ROUNDS
 replace /resources/art/fx/fxspec/abilities/smuggler/sm_penetrating_blasts_blaster_bolt.fxspec sp_penetrating_blasts_blaster_bolt.fxspec 
 replace /resources/art/fx/fxspec/abilities/smuggler/sm_penetrating_rounds_muzzle_flash.fxspec sm_penetrating_rounds_muzzle_flash.fxspec
+
+#PLASMA CELL
+replace /resources/art/fx/fxspec/abilities/trooper/tr_plasmaclip_muzzle.fxspec plasmacell-fix.fxspec
+replace /resources/art/fx/fxspec/abilities/trooper/tr_plasmaclip_target_burn.fxspec CGC+plasma_cell_light-fix.fxspec
 
 #RAIL SHOT
 replacegom epp.bounty_hunter.rail_shot.rail_shot_fire rail_shot_fire-impact_fix.node
@@ -255,7 +260,7 @@ replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_rocketpunch_01.fxspe
 replace /resources/art/fx/fxspec/abilities/spy/sp_series_of_shots_projectile.fxspec sp_series_of_shots_projectile.fxspec
 
 #SANGUINARY SHOT
-replacegom abl.smuggler.skill.ruffian.sanguinary_shot/15/2 Sanguinary_Shot_bleed-fix.node
+replacegom abl.smuggler.skill.ruffian.sanguinary_shot/20/2 Sanguinary_Shot_bleed-fix.node
 
 #SEARING WAVE
 replacegom epp.bounty_hunter.searing_wave.cast_instant searing_wave-flamethrower-DUAL.node    
@@ -270,9 +275,6 @@ replace /resources/art/fx/fxspec/abilities/trooper/tr_serrated_bolt_bolt.fxspec 
 replacegom epp.bounty_hunter.serrated_shot.cast_loop serrated_charge-fix.node
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_serrated_shot_impact.fxspec serrated_shot_new_impact.fxspec
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_serrated_blaster_bolt_dynamic.fxspec serrated_shot_new_bolt.fxspec
-
-#SPRINT (clicking sound removal when activated)
-replacegom epp.player.sprint_finish clickinmystep.node
 
 #SUPERCHARGED GAS (Purple)
 replace /resources/art/fx/particles/bh_supercharge_energy_gather_core_velocity_p.prt supercharged_gas_velocity_purple.prt
@@ -293,9 +295,6 @@ replacegom epp.smuggler.sweeping_gunfire sweeping_gunfire-muzzle_fix.node
 replacegom epp.jedi_consular.telekinetic_gust.rockwatch stormwatch_sage-fix.node
 replace /resources/art/fx/fxspec/abilities/jedi_consular/jc_telekinetic_blitz_impact.fxspec jc_telekinetic_blitz_impact.fxspec
 
-#TERMINAL VELOCITY NEW ICON
-replacegom abl.bounty_hunter.skill.arsenal.terminal_velocity terminalvelocity-newicon.node
-
 #THERMAL SENSOR OVERRIDE
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_thermal_override.fxspec New_thermal_jet.fxspec
 
@@ -314,7 +313,6 @@ replacegom epp.bounty_hunter.unload.unload_cast unloadpew-fix-NPC.node
 replace /resources/art/fx/fxspec/test_e3_handgun_fire.fxspec unloadpew-fix.fxspec
 replace /resources/art/fx/fxspec/1.fxspec unloadfoleyright-PEW.fxspec
 replace /resources/art/fx/fxspec/10.fxspec unloadfoleyleft-PEW.fxspec 
-
 
 
 ;---------------------------------------------COMPANION ABILITY  ANIMATIONS---------------------------------------------
@@ -371,7 +369,11 @@ replacegom epp.npc.ability.droid.acklay.flurry.instant Cartel_Spider-Droid.flurr
 replace /resources/art/fx/fxspec/worlddesign/flashpoint/spawn_jetpack_short.fxspec New_spawn_jetpack_short.fxspec
 replace /resources/art/fx/fxspec/worlddesign/flashpoint/spawn_jetpack_long.fxspec New_spawn_jetpack_long.fxspec
 
+#IRONFIST MISSILE SALVO
+replacegom epp.npc.ability.custom.boss.flashpoint.rta.ironfist.missile_salvo_projectile Ironfist_missile_salvo-fix.node ;may break game
 
+#NPC PLASMA PROBE
+replace /resources/art/fx/fxspec/abilities/spy/sp_plasma_probe_tick_01.fxspec NPC_Plasma_Probe_Fix.fxspec
 
 ;--------------------------------------------------OPS / FP IMPROVEMENS-------------------------------------------------
 #REVAN TOS FIGHT FINAL PHASE RED UNSTABLE ABERATIONS 

@@ -1,0 +1,1 @@
+replace /resources/art/fx/fxspec/198.fxspec heatseeker-explosion.fxspec

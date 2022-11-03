@@ -21,4 +21,9 @@ replace /resources/art/fx/fxspec/all_lightsaber_dynamic.fxspec xmasall_lightsabe
 replace /resources/art/fx/fxspec/abilities/sith_inquisitor/si_thundering_blast_cast.fxspec xmassi_thundering_blast_cast_snow.fxspec
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_fusion_missile_fire.fxspec xmastracerfiresound-fixed.fxspec
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_tactical_nuke_explosion.fxspec xmasmissile_explosion.fxspec
+replace /resources/art/fx/fxspec/198.fxspec xmasmissile_explosion.fxspec
 replace /resources/art/fx/fxspec/abilities/droid/droid_sky_trooper_heatseeker_missiles_cast.fxspec xmasheatseekers.fxspec
+replace /resources/art/fx/fxspec/test_mortar_target.fxspec xmasheatseeker_splash.fxspec
+replace /resources/art/fx/fxspec/bh_deathfromabove_randomtarget_large.fxspec xmasDFA-fix.fxspec
+replace /resources/art/fx/fxspec/160.fxspec xmasfusionfiresound-fixed.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_tactical_nuke_explosion02.fxspec xmastactical_nuke_explosion02.fxspec

@@ -1,0 +1,2 @@
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocket_right_projectile_01.fxspec deadlyonslaught_rails01.fxspec
+replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_ordnance_onslaught_rocket_left_projectile_02.fxspec deadlyonslaught_rails02.fxspec
