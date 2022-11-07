@@ -101,8 +101,6 @@ replace /resources/art/fx/particles/bh_firestorm_thrower_flames_p.prt firestorm_
 #FLAME BURST
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_bracerweapon_flameburst_01.fxspec New_flameburst_bracer.fxspec
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_flame_burst_cast.fxspec New_flameburst_flame.fxspec
-replace /resources/art/fx/particles/bh_flame_burst_flames_additive_p.prt bh_flame_burst_flames_additive_p.prt
-replace /resources/art/fx/particles/bh_flame_burst_flames_orange_p.prt bh_flame_burst_flames_orange_p.prt
 
 #FLAME SWEEP
 replace /resources/art/fx/fxspec/abilities/bounty_hunter/bh_flamesweep_bracer_flames_01.fxspec New_flamesweep_bracer_flames_01.fxspec
