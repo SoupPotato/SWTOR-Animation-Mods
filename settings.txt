@@ -341,9 +341,6 @@ replacegom epp.test.bug.agent.rushed_shot.rushed_shot_cast new_comp-supressive.n
 #UNIVERSAL SNIPER RIFLE COMPANIONS
 replacegom abl.companion.weapon_set.sniper_rifle.dps.aoe_attack sniper+rifle_comp_supressive-fix.node
 
-#UNIVERSAL ASSAULT CANNON COMPANIONS
-replacegom abl.companion.weapon_set.assault_cannon.dps.aoe_attack cannon_comp_supressive-fix.node
-
 
 
 ;------------------------------------------------NPC ABILITY  ANIMATIONS------------------------------------------------
